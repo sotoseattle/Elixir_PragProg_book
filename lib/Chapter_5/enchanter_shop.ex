@@ -19,7 +19,7 @@ defmodule EnchanterShop do
             %{ title: "Edwing's #{item.title}",
                price: item.price * 3, 
                magic: item.magic }
-        else`
+        else
             item
         end
     end
